@@ -27,7 +27,7 @@
 
 </script>
 
-<section class="w-full h-full md:h-screen bg-gray- text-sm flex flex-col md:p-2 space-y-2">
+<section class="w-full h-screen bg-gray- text-sm flex flex-col md:p-2 space-y-2">
 
 	<section class="w-full h-full bg-violet- flex md:space-x-2">
 		
