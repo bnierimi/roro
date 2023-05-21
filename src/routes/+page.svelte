@@ -85,7 +85,7 @@
 
 		<!-- Main Body -->
 		<!-- <main class="w-full md:w-8/12 lg:w-9/12 h-full bg-gray-200 md:rounded-lg overflow-y-auto space-y-4 focus:outline-violet-400 focus:ring-none" tabindex="0"> -->
-		<main class="w-full md:w-8/12 lg:w-9/12 h-full bg-gray-50/10 md:rounded-lg overflow-y-auto space-y-1 focus:outline-violet-400 focus:ring-none">
+		<main class="w-full md:w-8/12 lg:w-9/12 h-full bg-gray-50/10 md:rounded-lg overflow-y-auto space-y-1 focus:outline-violet-400 focus:ring-none flex flex-col">
 			
 			<!-- Nav bar on small screen -->
 			<nav class="flex md:hidden items-start justify-between p-3 bg-violet-">
