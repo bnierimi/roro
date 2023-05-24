@@ -67,7 +67,7 @@
 		</ul>
 	</div>
 	<div class="h-10 bg-rose-"></div>
-	<div class="w-full bg-mblack flex justify-center fixed bottom-3 left-0">
+	<div class="w-full bg-mblack flex justify-center fixed bottom-0 left-0 p-2">
 		<div class="max-h-32 w-full md:w-10/12 md:mx-auto text-base md:text-2xl flex items-end space-x-2">
 			<div class="flex sticky space-x-1 font-semibold">
 				<p class="text-violet-500">%yonko</p>
