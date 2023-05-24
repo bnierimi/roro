@@ -7,7 +7,10 @@
 			<p class="px-3 py-2 bg-violet-500 rounded-full font-medium">t/kagayaki.b</p>
 		</h2>
 	</div>
-	<div class="max-h-48 w-full font-semibold text-base md:text-2xl flex items-end space-x-4 bottom-0">
+	<div class="body w-full h-full">
+		<em class="opacity-50">List of results</em>
+	</div>
+	<div class="max-h-48 w-full font-semibold text-base md:text-2xl flex items-end space-x-4 relative bottom-0">
 		<div class="flex sticky space-x-1">
 			<p class="text-violet-500">~/neqakyu</p>
 			<p class="opacity-50">&</p>
