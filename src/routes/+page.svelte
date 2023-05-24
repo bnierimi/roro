@@ -1,6 +1,6 @@
 <script lang="ts"></script>
 
-<section class="h-screen w-full bg-mblack text-gray-50 flex flex-col justify-between p-4 relative space-y-3 font-mono">
+<section class="h-screen w-full bg-mblack text-gray-50 flex flex-col justify-between p-4 relative space-y-3 font-firaCode">
 	<div class="flex justify-between items-center">
 		<h1 class="text-2xl font-semibold">neqakyu_{"<"}</h1>
 		<a href="https://twitter.com/bnierimi" class="focus:outline-none focus:ring focus:border-violet-600">
@@ -43,7 +43,7 @@
 					<div class="p-1.5 rounded-full bg-yellow-500 mt-1.5 ring ring-yellow-500/20"></div>
 					<!-- <i class="icon icon-ic_fluent_chevron_right_20_regular flex text- text-gray-50 p- rounded-full bg-rose-500 mt-1"></i> -->
 					<div class="">
-						<p class="text-gray-400">neqa --cook .</p>
+						<p class="text-gray-400">neku --cook .</p>
 						<article class="text-yellow-500">
 							<h2 class="font-semibold">/!\ Warning</h2>
 							<p class="">neqakyu-chef: module: haki: new update available</p>
@@ -56,7 +56,7 @@
 					<div class="p-1.5 rounded-full bg-blue-500 mt-1.5 ring ring-blue-500/20"></div>
 					<!-- <i class="icon icon-ic_fluent_chevron_right_20_regular flex text- text-gray-50 p- rounded-full bg-rose-500 mt-1"></i> -->
 					<div class="">
-						<p class="text-gray-400">neqa --info style</p>
+						<p class="text-gray-400">neku --info style</p>
 						<article class="text-blue-500">
 							<h2 class="font-semibold">(!) Info</h2>
 							<p class="">neqakyu-shipwright: font: firecode-sans: using this font will make it super</p>
@@ -67,8 +67,8 @@
 		</ul>
 	</div>
 	<div class="h-10 bg-rose-"></div>
-	<div class="w-full bg-mblack flex justify-center fixed bottom-0 left-0 p-2">
-		<div class="max-h-32 w-full md:w-10/12 md:mx-auto text-base md:text-2xl flex items-end space-x-2">
+	<div class="w-full bg-mblack flex justify-center fixed bottom-0 left-0 p-4">
+		<div class="max-h-32 w-full md:w-10/12 md:mx-auto text-base md:text-xl flex items-end space-x-2">
 			<div class="flex sticky space-x-1 font-semibold">
 				<p class="text-violet-500">%yonko</p>
 				<p class="opacity-50">&</p>

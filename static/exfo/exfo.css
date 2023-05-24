@@ -1,56 +1,133 @@
 
+/* Fonts */
+@font-face {
+    font-family: "FiraCode";
+    src: url("/exfo/fonts/Fira_Code_v6.2/woff2/FiraCode-Regular.woff2") format("woff2"),
+        url("/exfo/fonts/Fira_Code_v6.2/woff/FiraCode-Regular.woff") format("woff");
+}
+.font-firaCode {
+    font-family: "FiraCode";
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FiraCodeVF";
+    src: url("/exfo/fonts/Fira_Code_v6.2/woff2/FiraCode-VF.woff2") format("woff2"),
+        url("/exfo/fonts/Fira_Code_v6.2/woff/FiraCode-VF.woff") format("woff");
+}
+.font-firaCodeVf {
+    font-family: "FiraCodeVF";
+    font-weight: 300 700;
+    font-style: normal;
+}
+
 /* Monument */
 /* @font-face {
-    font-family: Monument;
-    src: url(/fonts/);
+    font-family: "Monument";
+    src: url("/exfo/fonts/");
 }
 .monument {
-    font-family: Monument;
+    font-family: "Monument";
 } */
 
 /* Evermore */
 @font-face {
-    font-family: Evermore;
-    src: url(fonts/Evermore.otf) format("opentype");
+    font-family: "Evermore";
+    src: url("/exfo/fonts/Evermore.otf") format("opentype");
     font-style: normal;
     font-weight: normal;
 }
-.evermore {
-    font-family: 'Evermore';
+.font-evermore {
+    font-family: "Evermore";
 }
 
 /* BigShouldersDisplay */
 @font-face {
-    font-family: 'BigShouldersDisplay';
-    src: url(/fonts/BigShouldersDisplay-Medium.ttf) format("truetype");
+    font-family: "BigShouldersDisplay";
+    src: url("/exfo/fonts/BigShouldersDisplay-Medium.ttf") format("truetype");
 }
-.exfo-bigShouldersDisplay {
-    font-family: 'BigShouldersDisplay';
+.font-bigShouldersDisplay {
+    font-family: "BigShouldersDisplay";
 }
 
 /* BodoniModa */
 @font-face {
     font-family: BodoniModa;
-    src: url(/fonts/BodoniModa_18pt-SemiBold.ttf) format("truetype");
+    src: url("/exfo/fonts/BodoniModa_18pt-SemiBold.ttf") format("truetype");
 }
-.exfo-bodoniModa {
+.font-bodoniModa {
     font-family: BodoniModa;
 }
 
 /* Oswald */
 @font-face {
     font-family: Oswald;
-    src: url(/fonts/Oswald-Medium.ttf) format("truetype");
+    src: url("/exfo/fonts/Oswald-Medium.ttf") format("truetype");
 }
-.exfo-oswald {
+.font-oswald {
     font-family: Oswald;
 }
 
 /* Unbounded */
 @font-face {
     font-family: Unbounded;
-    src: url(/fonts/Unbounded-Bold.ttf) format("truetype");
+    src: url("/exfo/fonts/Unbounded-Bold.ttf") format("truetype");
 }
-.exfo-unbounded {
+.font-unbounded {
     font-family: Unbounded;
+}
+
+/* Style */
+.ligatures{
+    font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+    text-rendering: optimizeLegibility;  /* Force ligatures for Webkit, Blink, Gecko */
+}
+
+/* Keyword values */
+.ligatures-normal{
+    font-variant-ligatures: normal;
+}
+.ligatures-none{
+    font-variant-ligatures: none;
+}
+.ligatures-common-ligatures{
+    font-variant-ligatures: common-ligatures; /* <common-lig-values> */
+}
+.ligatures-no-common-ligatures{
+    font-variant-ligatures: no-common-ligatures; /* <common-lig-values> */
+}
+.ligatures-discretionary-ligatures{
+    font-variant-ligatures: discretionary-ligatures; /* <discretionary-lig-values> */
+}
+.ligatures-no-discretionary-ligatures{
+    font-variant-ligatures: no-discretionary-ligatures; /* <discretionary-lig-values> */
+}
+.ligatures-historical-ligatures{
+    font-variant-ligatures: historical-ligatures; /* <historical-lig-values> */
+}
+.ligatures-no-historical-ligatures{
+    font-variant-ligatures: no-historical-ligatures; /* <historical-lig-values> */
+}
+.ligatures-contextual{
+    font-variant-ligatures: contextual; /* <contextual-alt-values> */
+}
+.ligatures-no-contextual{
+    font-variant-ligatures: no-contextual; /* <contextual-alt-values> */
+}
+
+/* Global values */
+.ligatures-inherit{
+    font-variant-ligatures: inherit;
+}
+.ligatures-initial{
+    font-variant-ligatures: initial;
+}
+.ligatures-revert{
+    font-variant-ligatures: revert;
+}
+.ligatures-revert-layer{
+    font-variant-ligatures: revert-layer;
+}
+.ligatures-unset{
+    font-variant-ligatures: unset;
 }

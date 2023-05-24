@@ -7,6 +7,6 @@
   <title>neqa</title>
 </svelte:head>
 
-<div class="w-full h-full bg-base text-gray-50 exfo-evermore">
+<div class="w-full h-full">
   <slot />
 </div>
