@@ -15,7 +15,7 @@
 		<ul class="listOfOutputs bg-gray-400/10 space-y-4 w-full md:w-11/12 md:mx-auto h-full px-3 py-3 pb-20 rounded-lg">
 			<li>
 				<div class="flex items-start space-x-3">
-					<div class="w-2.5 h-2.5 rounded-full bg-green-500 mt-1.5 ring ring-green-500/20"></div>
+					<div class="p-1.5 rounded-full bg-green-500 mt-1.5 ring ring-green-500/20"></div>
 					<!-- <i class="icon icon-ic_fluent_chevron_right_20_regular flex text- text-gray-50 p- rounded-full bg-green-500 mt-1"></i> -->
 					<div class="">
 						<p class="text-gray-400">cd /shinku-kyu</p>
@@ -27,7 +27,7 @@
 			</li>
 			<li>
 				<div class="flex items-start space-x-3">
-					<div class="w-2.5 h-2.5 rounded-full bg-rose-500 mt-1.5 ring ring-rose-500/20"></div>
+					<div class="p-1.5 rounded-full bg-rose-500 mt-1.5 ring ring-rose-500/20"></div>
 					<!-- <i class="icon icon-ic_fluent_chevron_right_20_regular flex text- text-gray-50 p- rounded-full bg-rose-500 mt-1"></i> -->
 					<div class="">
 						<p class="text-gray-400">cd /merry</p>
@@ -40,7 +40,7 @@
 			</li>
 			<li>
 				<div class="flex items-start space-x-3">
-					<div class="w-2.5 h-2.5 rounded-full bg-yellow-500 mt-1.5 ring ring-yellow-500/20"></div>
+					<div class="p-1.5 rounded-full bg-yellow-500 mt-1.5 ring ring-yellow-500/20"></div>
 					<!-- <i class="icon icon-ic_fluent_chevron_right_20_regular flex text- text-gray-50 p- rounded-full bg-rose-500 mt-1"></i> -->
 					<div class="">
 						<p class="text-gray-400">neqa --cook .</p>
@@ -53,7 +53,7 @@
 			</li>
 			<li>
 				<div class="flex items-start space-x-3">
-					<div class="w-2.5 h-2.5 rounded-full bg-blue-500 mt-1.5 ring ring-blue-500/20"></div>
+					<div class="p-1.5 rounded-full bg-blue-500 mt-1.5 ring ring-blue-500/20"></div>
 					<!-- <i class="icon icon-ic_fluent_chevron_right_20_regular flex text- text-gray-50 p- rounded-full bg-rose-500 mt-1"></i> -->
 					<div class="">
 						<p class="text-gray-400">neqa --info style</p>
