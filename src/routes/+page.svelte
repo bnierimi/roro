@@ -1,13 +1,13 @@
 <script lang="ts"></script>
 
-<section class="h-screen w-full bg-mblack text-gray-50 flex flex-col items-end justify-between p-4">
+<section class="h-screen w-full bg-mblack text-gray-50 flex flex-col items-end justify-between p-4 relative">
 	<div class="">
 		<h2 class="flex items-center space-x-2">
 			<i class="icon icon-ic_fluent_person_20_filled flex text-lg rounded-full p-2 bg-gray-50/20"></i>
 			<p class="px-3 py-2 bg-violet-500 rounded-full font-medium">t/kagayaki.b</p>
 		</h2>
 	</div>
-	<div class="max-h-48 w-full font-semibold text-base md:text-2xl flex items-start space-x-4 relative">
+	<div class="max-h-48 w-full font-semibold text-base md:text-2xl flex items-end space-x-4 bottom-0">
 		<div class="flex sticky space-x-1">
 			<p class="text-violet-500">~/neqakyu</p>
 			<p class="opacity-50">&</p>
