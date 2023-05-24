@@ -11,7 +11,7 @@ export default {
         primary: "#9d00ff",
         secondary: "#e008ff",
         third: "#2ed1f2",
-        base: "#1a1a1a",
+        mblack: "#1a1a1a",
       },
       // lineHeight:{
       //   try: "-webkit-text-stroke-width: 2px;"
