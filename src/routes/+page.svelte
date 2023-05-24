@@ -10,14 +10,23 @@
 	<div class="body w-full h-full">
 		<p class="opacity-50">List of results</p>
 	</div>
-	<div class="max-h-48 w-full font-semibold text-base md:text-2xl flex items-end space-x-4 fixed bottom-2 left-2 mx-auto">
-		<div class="flex sticky space-x-1">
-			<p class="text-violet-500">~/neqakyu</p>
-			<p class="opacity-50">&</p>
+	<div class="w-full flex justify-center fixed bottom-2 left-0">
+		<div class="max-h-48 w-10/12 font-semibold text-base md:text-2xl flex items-end space-x-2">
+			<div class="flex sticky space-x-1">
+				<p class="text-violet-500">~/neqakyu</p>
+				<p class="opacity-50">&</p>
+			</div>
+			<!-- <p contenteditable="true" data-placeholder="enter --command or type --help" autofocus={true} spellcheck="false" class="w-full h-full bg-gray-50/10 rounded-md overflow-y-auto p-1 focus:outline-none focus:ring focus:border-violet-600" style="caret-color: rebeccapurple; caret-shape: underscore;"></p> -->
+			<p contenteditable="true" data-placeholder="enter --command or type --help" spellcheck="false" class="commandPrompt w-full h-full bg-gray-50/10 rounded-md overflow-y-auto px-1 focus:outline-none focus:ring focus:border-violet-600"></p>
+			<!-- <textarea name="commandPrompt" id="commandPrompt" class="w-full h-full bg-gray-50/10 rounded-md overflow-y-auto resize-none" style="caret-color: rebeccapurple; caret-shape: underscore;"></textarea> -->
+			<!-- <input type="text" placeholder="enter command" class="commandPrompt text-mblack text-7xl h-full p-2" style="caret-color: rebeccapurple; caret-shape: underscore;"> -->
 		</div>
-		<!-- <p contenteditable="true" data-placeholder="enter --command or type --help" autofocus={true} spellcheck="false" class="w-full h-full bg-gray-50/10 rounded-md overflow-y-auto p-1 focus:outline-none focus:ring focus:border-violet-600" style="caret-color: rebeccapurple; caret-shape: underscore;"></p> -->
-		<p contenteditable="true" data-placeholder="enter --command or type --help" spellcheck="false" class="w-10/12 h-full bg-gray-50/10 rounded-md overflow-y-auto p-1 focus:outline-none focus:ring focus:border-violet-600" style="caret-color: rebeccapurple; caret-shape: underscore;"></p>
-		<!-- <textarea name="commandPrompt" id="commandPrompt" class="w-full h-full bg-gray-50/10 rounded-md overflow-y-auto resize-none" style="caret-color: rebeccapurple; caret-shape: underscore;"></textarea> -->
-		<!-- <input type="text" placeholder="enter command" class="commandPrompt text-mblack text-7xl h-full p-2" style="caret-color: rebeccapurple; caret-shape: underscore;"> -->
 	</div>
 </section>
+
+<style>
+	.commandPrompt{
+		/* caret-color: rebeccapurple; */
+		caret-shape: block;
+	}
+</style>
