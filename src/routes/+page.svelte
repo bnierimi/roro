@@ -44,7 +44,7 @@
 			</h2>
 		</a>
 	</div>
-	<div class="body w-full h-full">
+	<div class="body w-full h-5/6">
 		<!-- <p class="opacity-50">List of outputs</p> -->
 		<ul id="listOfOutputs" class="listOfOutputs space-y-4 w-full md:w-11/12 md:mx-auto h-full overflow-y-auto overscroll-y-contain scroll-smooth pb-44">
 			{#each listOfOutputs as each_output}
@@ -55,7 +55,7 @@
 		</ul>
 	</div>
 	<div class="h-10 bg-rose-"></div>
-	<div class="w-full bg-mblack flex justify-center fixed bottom-0 left-0 p-4">
+	<div class="w-full bg-mblack flex items-end justify-center fixed bottom-0 left-0 p-4">
 		<div class="max-h-32 w-full md:w-10/12 md:mx-auto text-base md:text-xl flex items-end space-x-2">
 			<div class="flex sticky space-x-1 font-semibold">
 				<p class="text-violet-500">%yonko</p>
