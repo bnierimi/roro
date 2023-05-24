@@ -1,0 +1,56 @@
+
+/* Monument */
+/* @font-face {
+    font-family: Monument;
+    src: url(/fonts/);
+}
+.monument {
+    font-family: Monument;
+} */
+
+/* Evermore */
+@font-face {
+    font-family: Evermore;
+    src: url(fonts/Evermore.otf) format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+.evermore {
+    font-family: 'Evermore';
+}
+
+/* BigShouldersDisplay */
+@font-face {
+    font-family: 'BigShouldersDisplay';
+    src: url(/fonts/BigShouldersDisplay-Medium.ttf) format("truetype");
+}
+.exfo-bigShouldersDisplay {
+    font-family: 'BigShouldersDisplay';
+}
+
+/* BodoniModa */
+@font-face {
+    font-family: BodoniModa;
+    src: url(/fonts/BodoniModa_18pt-SemiBold.ttf) format("truetype");
+}
+.exfo-bodoniModa {
+    font-family: BodoniModa;
+}
+
+/* Oswald */
+@font-face {
+    font-family: Oswald;
+    src: url(/fonts/Oswald-Medium.ttf) format("truetype");
+}
+.exfo-oswald {
+    font-family: Oswald;
+}
+
+/* Unbounded */
+@font-face {
+    font-family: Unbounded;
+    src: url(/fonts/Unbounded-Bold.ttf) format("truetype");
+}
+.exfo-unbounded {
+    font-family: Unbounded;
+}
